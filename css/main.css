@@ -1,0 +1,128 @@
+/* The html and body elements cannot have any padding or margin. */
+html {
+  height: 100%;	
+	overflow-y: scroll !important;	
+}
+body {
+  height: 100%;
+  background: url("../img/body_bg.png") repeat-y center;  
+  background-color: #eee !important;
+/*   background: url("../img/clean-textile.png"); */
+}
+/* Wrapper for page content to push down footer */
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px;
+}
+#content {
+	padding: 20px 20px 50px 20px;
+}
+.container {
+	max-width: 960px;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+/* Set the fixed height of the footer here */
+#push {
+  height: 40px;
+}
+#footer {
+	width: 100%;
+	height: 30px;
+	padding: 10px 0 0 0;
+  background-color: #1B1B1B;
+	background-image: -moz-linear-gradient(top, #222, #111);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222), to(#111));
+	background-image: -webkit-linear-gradient(top, #222, #111);
+	background-image: -o-linear-gradient(top, #222, #111);
+	background-image: linear-gradient(to bottom, #222, #111);
+	background-repeat: repeat-x;
+	border-color: #252525;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+#footer a {
+  color: #E0520A;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+#mapviewer iframe {
+	width: 100%;
+}
+#home-carousel {
+  margin-bottom: 0;
+}
+#home-carousel.carousel .container {
+  position: relative;
+  z-index: 10;
+}
+#home-carousel.carousel-control {
+  height: 80px;
+  margin-top: 0;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+}
+#home-carousel.carousel .item {
+  height: 500px;
+}
+#home-carousel.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+#page-carousel {
+  margin-bottom: 0;
+}
+#page-carousel.carousel .container {
+  position: relative;
+  z-index: 10;
+}
+#page-carousel.carousel-control {
+  height: 80px;
+  margin-top: 0;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+}
+#page-carousel.carousel .item {
+  height: 350px;
+}
+#page-carousel.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 350px;
+}
+#page-carousel .carousel-caption {
+  margin-top: 269px;
+  max-width: none;
+  text-align: center;
+}
+#page-carousel .carousel-caption h1 {
+  display: inline-block;
+  padding: .3em .5em .175em .5em;
+  line-height: 1.65em;
+  background-color: #E0520A;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 100;
+  color: white;
+  text-shadow: none;
+}
+.brand img {
+  margin-top: -8px;
+  width: 208px;
+}
