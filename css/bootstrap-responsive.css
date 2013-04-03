@@ -951,6 +951,9 @@
     position: static;
     margin-top: 130px;
   }  
+  #mapviewer iframe {
+    width: 240px;
+  }
 }
 
 @media (max-width: 979px) {
