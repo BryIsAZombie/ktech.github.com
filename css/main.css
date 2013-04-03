@@ -54,9 +54,11 @@ body {
     padding-right: 20px;
   }
 }
+#mapviewer {
+  overflow: hidden;
+}  
 #mapviewer iframe {
   width: 100%;
-  overflow: hidden;  
 }
 #home-carousel {
   margin-bottom: 0;
