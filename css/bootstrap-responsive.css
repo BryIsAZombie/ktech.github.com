@@ -93,6 +93,15 @@
   .hidden-phone {
     display: none !important;
   }
+  #page-carousel {
+    margin-right: -40px;
+    margin-left: -40px;
+    margin-top: -20px;
+    padding: 20px;
+  }
+  .carousel-caption {
+    margin-top: 220px;
+  }
 }
 
 @media (min-width: 1200px) {
