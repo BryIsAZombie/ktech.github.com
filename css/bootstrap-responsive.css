@@ -951,8 +951,11 @@
     position: static;
     margin-top: 130px;
   }  
+  #mapviewer {
+    width: 100px;
+  }
   #mapviewer iframe {
-    width: 100px !important;
+    width: 100%;
   }
 }
 
