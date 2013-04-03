@@ -951,9 +951,6 @@
     position: static;
     margin-top: 130px;
   }  
-  #mapviewer {
-    overflow: hidden;
-  }
 }
 
 @media (max-width: 979px) {
