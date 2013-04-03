@@ -126,3 +126,7 @@ body {
   margin-top: -8px;
   width: 208px;
 }
+.required:after {
+  content: " *";
+  color: rgb(185, 74, 72);
+}
