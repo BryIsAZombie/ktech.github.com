@@ -942,6 +942,7 @@
   }
   .carousel-caption {
     position: static;
+    margin-top: 130px;
   }
 }
 
